@@ -9,18 +9,9 @@ export interface ICurrentWeatherData {
   },
   weather: [
     {
-      description: string
+      description: string,
       icon: string
     }
   ]
-
-
-
-  /* 
-  city: string
-  country: string
-  date: Date
-  image: string
-  temperature: number
-  description: string */
 }
+
